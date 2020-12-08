@@ -1,0 +1,31 @@
+!pip install beautifulsoup4
+!pip install lxml
+import requests # library to handle requests
+import pandas as pd # library for data analsysis
+import numpy as np # library to handle data in a vectorized manner
+import random # library for random number generation
+
+#!conda install -c conda-forge geopy --yes 
+from geopy.geocoders import Nominatim # module to convert an address into latitude and longitude values
+
+# libraries for displaying images
+from IPython.display import Image 
+from IPython.core.display import HTML 
+
+
+from IPython.display import display_html
+import pandas as pd
+import numpy as np
+    
+# tranforming json file into a pandas dataframe library
+from pandas.io.json import json_normalize
+
+!conda install -c conda-forge folium=0.5.0 --yes
+import folium # plotting library
+from bs4 import BeautifulSoup
+from sklearn.cluster import KMeans
+import matplotlib.cm as cm
+import matplotlib.colors as colors
+
+print('Folium installed')
+print('Libraries imported.')
